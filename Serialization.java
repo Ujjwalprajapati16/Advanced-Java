@@ -12,10 +12,20 @@ class Student implements Serializable {
     private int age;
     private String address;
 
+    transient int x; //do not want to serialize it we uses transient.
+
     public Student(String name, int age, String address) {
         this.name = name;
         this.age = age;
         this.address = address;
+    }
+
+    public void setX(int x) {
+        this.x = x;
+    }
+
+    public int getX() {
+        return x;
     }
 
     public void setName(String name) {
@@ -54,7 +64,7 @@ class Student implements Serializable {
 
 public class Serialization {
     public static void main(String[] args) {
-        Student student =  new Student("john", 25, "122 hej");
+        Student student =  new Student("john", 25, "132, Baker's street");
 
         String filename = "Test.txt";
         FileOutputStream fileOut = null;
