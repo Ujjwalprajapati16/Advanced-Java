@@ -1,4 +1,4 @@
-package Multithreading;
+
 
 public class DaemonThreadDemo extends Thread {
     public void run() {

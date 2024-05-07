@@ -1,4 +1,4 @@
-package Multithreading;
+
 
 public class SleepDemo extends Thread{
     public void run(){

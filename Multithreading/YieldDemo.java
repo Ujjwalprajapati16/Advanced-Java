@@ -1,4 +1,4 @@
-package Multithreading;
+
 
 public class YieldDemo extends Thread {
     public void run() {

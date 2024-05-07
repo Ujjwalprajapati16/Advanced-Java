@@ -1,4 +1,4 @@
-package Multithreading;
+
 
 public class InterruptedDemo extends Thread {
     public void run() {

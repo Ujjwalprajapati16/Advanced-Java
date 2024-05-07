@@ -1,4 +1,4 @@
-package Multithreading;
+
 
 public class ThreadPriority extends Thread {
     public void run() {

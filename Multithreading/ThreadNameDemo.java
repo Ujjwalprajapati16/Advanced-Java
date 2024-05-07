@@ -1,4 +1,4 @@
-package Multithreading;
+
 
 public class ThreadNameDemo {
     public static void main(String[] args) {

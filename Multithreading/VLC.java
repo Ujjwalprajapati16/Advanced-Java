@@ -1,4 +1,4 @@
-package Multithreading;
+
 
 class Play extends Thread {
     public void run() {

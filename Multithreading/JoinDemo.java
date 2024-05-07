@@ -1,4 +1,4 @@
-package Multithreading;
+
 
 public class JoinDemo extends Thread {
     public void run() {
